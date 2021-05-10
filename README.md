@@ -1,6 +1,18 @@
 # fast-internet-computer
 mempercepat koneksi internet di komputer
 
+## perubahan laptop saya
+- netsh int tcp set global autotuninglevel=normal - awal
+  - netsh int tcp set global autotuninglevel=normal
+- netsh int tcp set global chimney=disbaled - awal
+  - netsh int tcp set global chimney=enabled
+- netsh int tcp set global dca=disabled - awal
+  - netsh int tcp set global dca=enabled
+- netsh int tcp set global netdma=disabled
+  - netsh int tcp set global netdma=enabled
+- netsh int tcp set global ecncapability=disabled
+  - netsh int tcp set global ecncapability=enabled
+
 
 ## Langkah
 1. buka cmd (administrator)
